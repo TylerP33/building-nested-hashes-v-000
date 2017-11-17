@@ -6,7 +6,7 @@ def bonus
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
          {name: "Benvolio", age: "17", attitude: "worried"},
-         {name: "Steven", age: "30", attitude: "confused"}
+         {name: "Steven", age: "30", attitude: "confused"},
       ]
    }, 
    :capulet => {
@@ -20,7 +20,7 @@ def bonus
    }
   }
 
-  #code your solution here:
+:capulet[:heroine][:status] = "dead"
 
   
 
